@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #3498db; /* Main blue color */
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.signup-container {
+    background-color: #fff; /* White background color for the signup box */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    max-width: 400px; /* Set the maximum width of the signup box */
+    width: 100%; /* Make the signup box responsive */
+}
+
+h1 {
+    color: #3498db; /* Blue color for the heading */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 20px;
+    color: #0a0b0b; /* Blue color for labels */
+    font-size: 16px;
+}
+
+input {
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #3498db; /* Blue border for input fields */
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #3498db; /* Blue background color for the button */
+    color: #fff;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+.login-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.login-link a:hover {
+    color: #2980b9; /* Darker blue on hover */
+}
+
+@media (max-width: 768px) {
+    .signup-container {
+        padding: 20px;
+    }
+}
