@@ -1,1 +1,1 @@
-# DCDIUM-_CTF
+# DCDIUM_CTF
